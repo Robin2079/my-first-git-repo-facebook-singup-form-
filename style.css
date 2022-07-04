@@ -1,0 +1,171 @@
+/**--Facebook Title Start from Here--**/
+.fb_title {
+  font-family: Segoe UI;
+  color: #1877F2;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  margin: auto;
+} /**--Facebook Title End Here--**/
+
+/**--Form Start from here--**/
+.form_box {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: auto;
+  width: 450px;
+  border: 2px solid #f1f1f1;
+  box-shadow: 0 0 15px 0px #f1f1f1 ;
+  border-radius: 10px;
+} /**--Form box main css--**/
+
+/**--Form heading column(1) start from here--**/
+.col_1 {
+  background-color: #fff;
+  height: 80px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.main_head {
+  box-sizing: border-box;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.f_h {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 0;
+}
+
+.f_t {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 10px;
+  padding: 0;
+} /**--Form Heading column(1) End Here--**/
+
+/**--Form Input Fields column(2) Start From Here--**/
+.col_2 {
+  background-color: #fff;
+  box-sizing: border-box;
+  position: relative;
+  padding: 5%;
+}
+
+  /**--Text type input--**/ 
+
+.size_50 {
+  display: flex;
+  margin: 0;
+  gap: 10px;
+}  
+
+.f_n, .l_n {
+  width: 48.8%;
+  position: relative;
+  border: 2px solid #d8d8d8;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.m_n input, .e_a input, .p_d input {
+  width: 95%;
+  border: 2px solid #d8d8d8;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 2%;
+  margin-bottom: 2%;
+} /**--Text type input end--**/
+
+
+/**--Select type input--**/
+.DOB, .GR {
+  font-family: segoe ui;
+  font-size: 14px;
+  letter-spacing: 1;
+  display: block;
+}
+
+.d_o_b {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1%;
+}
+
+.date, .month, .year {
+  width: 32%;
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 1.5%;
+} /**--Select type input end here--**/
+
+.GR {
+  margin-bottom: 5px;
+}
+
+.gender_wraper {
+  display: flex;
+  gap: 10px;
+}
+
+.sex {
+  border: 2px solid;
+  position: relative;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: calc(33%);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 1.5%;
+}
+
+.sex input[type="radio"] {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+}
+
+.l_text p {
+  font-family: segoe ui;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.btn_wraper {
+  text-align: center;
+}
+
+button {
+  background-color: #119F16;
+  font-family: Segoe UI;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  width: 200px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+/**--Form end--**/
+
+
+
+
+
